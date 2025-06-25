@@ -2,7 +2,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { AppBar, Toolbar, Typography, Button, Box, IconButton } from '@mui/material';
-import { ArrowBack } from '@mui/icons-material';
+// import { ArrowBack } from '@mui/icons-material';
 
 export default function Header({ title, showBack = false }) {
     const navigate = useNavigate();
@@ -14,7 +14,7 @@ export default function Header({ title, showBack = false }) {
                 <Box display="flex" alignItems="center">
                     {showBack && (
                         <IconButton edge="start" color="inherit" onClick={() => navigate(-1)} sx={{ mr: 1 }}>
-                            <ArrowBack />
+                            {/* <ArrowBack /> */}
                         </IconButton>
                     )}
 

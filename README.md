@@ -27,33 +27,25 @@ This is a modern responsive web application for exploring categorized campus res
 
 ## Folder Structure Overview
 
-src/
-├── components/        # Reusable UI components
-├── pages/             # Page views
-├── services/          # API service functions
-├── App.jsx            # Main app layout
-└── main.jsx           # Entry point
-
----
-
-## Folder Structure Overview
-
-src/
-├── components/        # Reusable UI components
-├── pages/             # Page views
-├── services/          # API service functions
-├── App.jsx            # Main app layout
-└── main.jsx           # Entry point
+ src/
+    ├── components/        # Reusable UI components
+    ├── pages/             # Page views
+    ├── services/          # API service functions
+    ├── App.jsx            # Main app layout
+    └── main.jsx           # Entry point
 
 ---
 
 ## How to Run the Project
 
-1.Clone the Repository
+### 1. Clone the Repository
+```bash
 git clone [Project Repository](https://github.com/SanjayRenukaprasad/Campus_Resources.git)
+cd Campus_Resources
 cd your-repo-name(frontend and backend folders - Follow next steps)
 
-2.cd frontend (React)
+2. cd frontend (React)
+```bash
 cd frontend
 npm install
 npm run dev

@@ -16,7 +16,7 @@ export default function CategoryCard({ category }) {
         navigate(`/category/${category.id}`);
     };
 
-    const bgImage = `/public/${category.name.toLowerCase().replace(/\s+/g, '')}.jpg`;
+    const bgImage = `/${category.name.toLowerCase().replace(/\s+/g, '')}.jpg`;
 
     return (
         <Card

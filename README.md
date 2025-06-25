@@ -16,12 +16,12 @@ This is a modern responsive web application for exploring categorized campus res
 
 ## Features
 
-- 📚 View resources by category
-- 🔍 Filter categories with a dropdown
-- 🎴 Beautiful category cards with hover effects
-- 🔗 External resource links with "Visit" buttons
-- 🔙 Back navigation with optional back arrow
-- ⚙️ Responsive design with utility-first classes
+- View resources by category
+- Filter categories with a dropdown
+- Beautiful category cards with hover effects
+- External resource links with "Visit" buttons
+- Back navigation with optional back arrow
+- Responsive design with utility-first classes
 
 ---
 

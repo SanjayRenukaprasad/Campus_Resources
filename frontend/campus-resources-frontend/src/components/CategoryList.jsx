@@ -93,3 +93,15 @@ export default function CategoryList({
         </div>
     );
 }
+
+// import React from 'react';
+
+// export default function CategoryList() {
+//     return (
+//         <div style={{ padding: '2rem', textAlign: 'center' }}>
+//             <h2>Dummy Category List</h2>
+//             <p>This is a placeholder component to test the build.</p>
+//         </div>
+//     );
+// }
+

@@ -6,7 +6,7 @@ This is a modern responsive web application for exploring categorized campus res
 
 # Live Demo
 
-Frontend (Vercel) - [Campus-Resource Site](https://your-frontend.vercel.app)
+Frontend (Vercel) - [Campus-Resource Site](https://campus-resources-fawn.vercel.app/)
 
 ---
 

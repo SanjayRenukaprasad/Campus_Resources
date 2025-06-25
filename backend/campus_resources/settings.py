@@ -128,4 +128,8 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # CORS settings
-CORS_ALLOW_ALL_ORIGINS = True  # Dev only
+CORS_ALLOWED_ORIGINS = [
+    "https://campus-resources-fawn.vercel.app/",
+]
+
+CORS_ALLOW_ALL_ORIGINS = True

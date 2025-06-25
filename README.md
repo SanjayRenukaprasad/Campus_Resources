@@ -44,12 +44,7 @@ This is a modern responsive web application for exploring categorized campus res
 cd Campus_Resources
 cd your-repo-name(frontend and backend folders - Follow next steps)
 
-2. cd frontend (React)
-cd frontend
-npm install
-npm run dev
-
-3.cd backend (Django) Server
+2. cd backend (Django) Server
 cd backend
 python3 -m venv venv
 source venv/bin/activate  # For Linux/macOS
@@ -59,3 +54,8 @@ pip install -r requirements.txt
 
 python3 manage.py migrate
 python3 manage.py runserver
+
+3. cd frontend (React)
+cd frontend/campus-resources-frontend
+npm install
+npm run dev

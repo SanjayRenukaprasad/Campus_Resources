@@ -10,7 +10,7 @@ This is a modern responsive web application for exploring categorized campus res
 - **Styling:** Tailwind CSS + Material UI (MUI)
 - **Routing:** React Router DOM
 - **Backend (optional):** Django (for resource API)
-- **Deployment:** Vercel / Netlify (easy hosting)
+- **Deployment:** Vercel
 
 ---
 
@@ -28,7 +28,7 @@ This is a modern responsive web application for exploring categorized campus res
 ## Folder Structure Overview
 
  src/
-    ├── components/        # Reusable UI components
+    ├── components/         # Reusable UI components
     ├── pages/             # Page views
     ├── services/          # API service functions
     ├── App.jsx            # Main app layout
@@ -38,14 +38,13 @@ This is a modern responsive web application for exploring categorized campus res
 
 ## How to Run the Project
 
-### 1. Clone the Repository
+### Instructions
 ```bash
-git clone [Project Repository](https://github.com/SanjayRenukaprasad/Campus_Resources.git)
+1. git clone [Project Repository](https://github.com/SanjayRenukaprasad/Campus_Resources.git)
 cd Campus_Resources
 cd your-repo-name(frontend and backend folders - Follow next steps)
 
 2. cd frontend (React)
-```bash
 cd frontend
 npm install
 npm run dev

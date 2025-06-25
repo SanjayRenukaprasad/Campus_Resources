@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: campus-resources-backend
+    runtime: python
+    buildCommand: ""
+    startCommand: gunicorn campus_resources.wsgi:application
+    envVars:
+      - key: DEBUG
+        value: "False"

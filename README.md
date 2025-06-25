@@ -25,11 +25,32 @@ This is a modern responsive web application for exploring categorized campus res
 
 ---
 
+## Folder Structure Overview
+
+src/
+├── components/        # Reusable UI components
+├── pages/             # Page views
+├── services/          # API service functions
+├── App.jsx            # Main app layout
+└── main.jsx           # Entry point
+
+---
+
+## Folder Structure Overview
+
+src/
+├── components/        # Reusable UI components
+├── pages/             # Page views
+├── services/          # API service functions
+├── App.jsx            # Main app layout
+└── main.jsx           # Entry point
+
+---
+
 ## How to Run the Project
 
 1.Clone the Repository
-```bash
-git clone https://github.com/SanjayRenukaprasad/Campus_Resources.git
+git clone [Project Repository](https://github.com/SanjayRenukaprasad/Campus_Resources.git)
 cd your-repo-name(frontend and backend folders - Follow next steps)
 
 2.cd frontend (React)
@@ -41,35 +62,9 @@ npm run dev
 cd backend
 python3 -m venv venv
 source venv/bin/activate  # For Linux/macOS
-# OR
 venv\Scripts\activate     # For Windows
 
 pip install -r requirements.txt
 
 python3 manage.py migrate
 python3 manage.py runserver
-
----
-
-## Folder Structure Overview
-src/
-├── components/        # Reusable UI components
-├── pages/             # Page views
-├── services/          # API service functions
-├── App.jsx            # Main app layout
-└── main.jsx           # Entry point
-
-##Features
--View categorized resource cards
--Clickable image cards with hover "Explore" text
--Filter by category with dropdown
--Responsive grid layout
--Route-based detail views
--Back button and home navigation
-
-
-
-
-
-
-

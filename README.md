@@ -4,13 +4,19 @@ This is a modern responsive web application for exploring categorized campus res
 
 ---
 
+# Live Demo
+
+Frontend (Vercel) - [Campus-Resource Site](https://your-frontend.vercel.app)
+
+---
+
 ## Tech Stack
 
 - **Frontend Framework:** React (Vite)
 - **Styling:** Tailwind CSS + Material UI (MUI)
 - **Routing:** React Router DOM
-- **Backend (optional):** Django (for resource API)
-- **Deployment:** Vercel
+- **Backend:** Django (for resource API)
+- **Deployment:** Frontend: Vercel and Backend: Render
 
 ---
 
